@@ -27,7 +27,7 @@ int main()
     p = newArray();
     delete[] p;
 
-    drink *d;
+    drink **drinks;
 
     sizeType drinkSize;
     baseType drinkBase;
@@ -43,37 +43,52 @@ int main()
     dairy = inputDrinkDairy();
     myDrink = new drink(drinkBase, drinkTemp, drinkSize, dairy, flavor);
 
-    int numDrinks = inputInt("How many drinks do you want? ", numGT0);
+    // int numDrinks = inputInt("How many drinks do you want? ", numGT0);
+    int numDrinks = 1;
+    drinks = new drink *[numDrinks];
 
-    d = new drink[numDrinks];
-
-    for (int currentDrink = 0; currentDrink < numDrinks; currentDrink++)
+    while (yN == 'Y')
     {
         drinkSize = inputDrinkSize();
         drinkBase = inputDrinkBase();
         drinkTemp = inputDrinkTemperature();
         flavor = inputDrinkFlavor();
         dairy = inputDrinkDairy();
-        d[currentDrink] = drink(drinkBase, drinkTemp, drinkSize, dairy, flavor);
+        drinks[numDrinks - 1] = new drink(drinkBase, drinkTemp, drinkSize, dairy, flavor);
         // drink d(bases[drinkBase - 1], temps[drinkTemp - 1], sizes[drinkSize - 1], dairy, flavor);
-        std::cout << d[currentDrink].tostring() << std::endl;
-        /* std::cout << "Would you like another drink?";
-         std::cin >> yN;
-          yN = toupper(yN);
-         while (yN != 'Y' && yN != 'N')
-         {
-             std::cout << "You did not enter y or n." << std::endl;
-             std::cout << "Would you like another drink?";
-             std::cin >> yN;
-             yN = toupper(yN);
-         } */
+        std::cout << drinks[numDrinks - 1]->tostring() << std::endl;
+        std::cout << "Would you like another drink? ";
+        std::cin >> yN;
+        yN = toupper(yN);
+        while (yN != 'Y' && yN != 'N')
+        {
+            std::cout << "You did not enter y or n." << std::endl;
+            std::cout << "Would you like another drink? ";
+            std::cin >> yN;
+            yN = toupper(yN);
+        }
+        if (yN == 'Y')
+        {
+            drink **d = drinks;
+            drinks = new drink *[++numDrinks];
+            for (int i = 0; i < numDrinks - 1; i++)
+            {
+                drinks[i] = d[i];
+            }
+            delete[] d;
+        }
     }
 
-    std::cout << "The final drink is:" << std::endl;
-    std::cout << d[numDrinks - 1].tostring() << std::endl;
+    std::cout << "The list of drinks is:" << std::endl;
+    std::cout << myDrink->tostring() << std::endl;
 
     delete myDrink;
-    delete[] d;
+    for (int i = 0; i < numDrinks; i++)
+    {
+        std::cout << drinks[i]->tostring() << std::endl;
+        delete drinks[i];
+    }
+    delete[] drinks;
     return 0;
 }
 
