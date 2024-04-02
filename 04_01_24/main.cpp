@@ -15,7 +15,7 @@ bool numInRange(int num, int lower, int upper);
 bool numGT0(int num, int = 0, int = 0);
 bool negNum(int num, int = 0, int = 0);
 
-int inputInt(std::string prompt, bool (*func)(int, int, int), int lower = 0, int upper = 0);
+int inputInt(std::string prompt, bool (*func)(int, int, int), int lower = 0, int upper = 0); // the function pointer returns a true if the data is valid
 
 int main()
 {
