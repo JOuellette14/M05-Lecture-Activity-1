@@ -3,6 +3,7 @@
 #include <cctype>
 #include "drink.h"
 
+// lecture activity comment lines 25 - 30, 32, 46, 50, 59, 61, 74 - 80
 void resetStream();
 sizeType inputDrinkSize();
 baseType inputDrinkBase();
