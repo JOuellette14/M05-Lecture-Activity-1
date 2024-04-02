@@ -33,14 +33,14 @@ std::string drink::getFlavor() const
 {
     return flavor;
 }
-/* drink::drink()
+drink::drink()
 {
     setBase(COFFEE);
     setSize(LARGE);
     setTemperature(HOT);
     dairy = "";
     flavor = "";
-} */
+}
 double drink::getPrice() const
 {
     double price = 0;
