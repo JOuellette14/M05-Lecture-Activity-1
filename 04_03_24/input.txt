@@ -1,0 +1,152 @@
+2 1 3 
+Hazelnut 
+Almond milk
+
+3 2 1 
+Caramel 
+Soy milk
+y
+1 3 2 
+Vanilla 
+Coconut milk
+y
+1 2 3 
+Vanilla 
+Almond milk
+y
+3 1 2 
+Hazelnut
+Soy milk
+y
+2 3 1 
+Caramel
+Coconut milk
+y
+2 1 3 
+Hazelnut
+Almond milk
+y
+3 2 1 
+Caramel 
+Soy milk
+y
+1 3 2 
+Vanilla 
+Coconut milk
+y
+1 2 3 
+Hazelnut 
+Almond milk
+y
+3 1 2 
+Caramel 
+Soy milk
+y
+2 3 1 
+Vanilla 
+Coconut milk
+y
+3 2 1 
+Hazelnut 
+Almond milk
+y
+1 3 2 
+Caramel 
+Soy milk
+y
+2 1 3 
+Vanilla 
+Coconut milk
+y
+2 3 1 
+Hazelnut 
+Almond milk
+y
+1 2 3 
+Caramel 
+Soy milk
+y
+3 1 2 
+Vanilla 
+Coconut milk
+y
+3 2 1 
+Hazelnut 
+Almond milk
+y
+2 1 3 
+Caramel 
+Soy milk
+y
+1 3 2 
+Vanilla 
+Coconut milk
+y
+1 2 3 
+Hazelnut 
+Almond milk
+y
+3 1 2 
+Caramel 
+Soy milk
+y
+2 3 1 
+Vanilla 
+Coconut milk
+y
+3 2 1 
+Hazelnut 
+Almond milk
+y
+1 3 2 
+Caramel 
+Soy milk
+y
+2 1 3 
+Vanilla 
+Coconut milk
+y
+2 3 1 
+Hazelnut 
+Almond milk
+y
+1 2 3 
+Caramel 
+Soy milk
+y
+3 1 2 
+Vanilla 
+Coconut milk
+y
+3 2 1 
+Hazelnut 
+Almond milk
+y
+2 1 3 
+Caramel 
+Soy milk
+y
+1 3 2 
+Vanilla 
+Coconut milk
+y
+1 2 3 
+Hazelnut 
+Almond milk
+y
+3 1 2 
+Caramel 
+Soy milk
+y
+2 3 1 
+Vanilla 
+Coconut milk
+y
+3 2 1 
+Hazelnut 
+Almond milk
+y
+1 3 2 
+Caramel 
+Soy milk
+n

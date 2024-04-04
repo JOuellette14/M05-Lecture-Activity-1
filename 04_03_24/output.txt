@@ -1,0 +1,1028 @@
+0x7fffffffd9b4
+79
+Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? This order has 3 drinks:
+Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 9.00
+
+-------------------------
+Size: Large
+Base: Tea
+Temperature: Iced
+Flavor: Sweet
+Dairy: 
+Price: 7.25
+
+-------------------------
+Size: Large
+Base: Tea
+Temperature: Iced
+Flavor: Sweet
+Dairy: 
+Price: 7.25
+
+-------------------------
+
+This order has 2 drinks:
+Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 9.00
+
+-------------------------
+Size: Large
+Base: Tea
+Temperature: Iced
+Flavor: Sweet
+Dairy: 
+Price: 7.25
+
+-------------------------
+
+Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 6.75
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 3.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Vanilla 
+Dairy: Almond milk
+Price: 7.00
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Hazelnut
+Dairy: Soy milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Caramel
+Dairy: Coconut milk
+Price: 4.00
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Hazelnut
+Dairy: Almond milk
+Price: 9.00
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 6.75
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 3.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 7.00
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 4.00
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 3.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 7.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 5.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 5.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 7.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 3.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 7.00
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 4.00
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 3.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 7.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 5.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 5.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 7.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 3.50
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 7.00
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 4.00
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Would you like another drink? Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 3.50
+
+Would you like another drink? The list of drinks is:
+Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 9.00
+
+Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 6.75
+
+Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 3.50
+
+Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Vanilla 
+Dairy: Almond milk
+Price: 7.00
+
+Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Hazelnut
+Dairy: Soy milk
+Price: 8.25
+
+Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Caramel
+Dairy: Coconut milk
+Price: 4.00
+
+Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Hazelnut
+Dairy: Almond milk
+Price: 9.00
+
+Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 6.75
+
+Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 3.50
+
+Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 7.00
+
+Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 8.25
+
+Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 4.00
+
+Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 3.50
+
+Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 7.50
+
+Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 5.50
+
+Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 5.50
+
+Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 8.25
+
+Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 7.50
+
+Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 3.50
+
+Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 7.00
+
+Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 8.25
+
+Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 4.00
+
+Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 3.50
+
+Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 7.50
+
+Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 5.50
+
+Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 5.50
+
+Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 8.25
+
+Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Size: Medium
+Base: Coffee
+Temperature: Blended
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 7.50
+
+Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 3.50
+
+Size: Small
+Base: Tea
+Temperature: Blended
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 7.00
+
+Size: Large
+Base: Coffee
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 8.25
+
+Size: Medium
+Base: Cream
+Temperature: Hot
+Flavor: Vanilla 
+Dairy: Coconut milk
+Price: 4.00
+
+Size: Large
+Base: Tea
+Temperature: Hot
+Flavor: Hazelnut 
+Dairy: Almond milk
+Price: 8.25
+
+Size: Small
+Base: Cream
+Temperature: Iced
+Flavor: Caramel 
+Dairy: Soy milk
+Price: 3.50
+
