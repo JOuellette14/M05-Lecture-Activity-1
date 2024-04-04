@@ -20,13 +20,22 @@ void drinkOrder::addDrink(drink &d)
     delete[] dcpy;
 }
 
-void drinkOrder::addDrinks(drink d[], int numD)
+void drinkOrder::addDrinks(drink **d, int numD)
 {
-    /* for (int i = 0; i < numD; i++)
+    int oldNum = numDrinks;
+    numDrinks += numD;
+    drink **dcpy;
+    dcpy = drinks;
+    drinks = new drink *[numDrinks + 1];
+    for (int i = 0; i < oldNum; i++)
     {
-        drinks[i] = d[i];
+        drinks[i] = dcpy[i];
     }
-    numDrinks = numD; */
+    int j = 0;
+    for (int i = oldNum; i < numDrinks; i++)
+    {
+        drinks[i] = new drink(*d[j++]);
+    }
 }
 
 drinkOrder::drinkOrder(const drinkOrder &otherOrder)
@@ -55,7 +64,7 @@ std::string drinkOrder::tostring() const
     for (int i = 0; i < numDrinks; i++)
     {
         out << drinks[i]->tostring() << std::endl;
-        out << std::setw(25) << std::setfill('-') << std::endl;
+        out << std::setw(25) << std::setfill('-') << "-" << std::endl;
     }
     return out.str();
 }

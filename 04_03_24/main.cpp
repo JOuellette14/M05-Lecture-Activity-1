@@ -4,7 +4,8 @@
 #include "drink.h"
 #include "drinkOrder.h"
 
-// lecture activity comment lines 25 - 30, 32, 46, 50, 59, 61, 74 - 80
+// lecture activity change the loop that starts on line 64
+// instead of adding drinks to the array of drinks add them one at a time directly to dorder2
 void resetStream();
 sizeType inputDrinkSize();
 baseType inputDrinkBase();
@@ -92,8 +93,9 @@ int main()
             delete[] d;
         }
     }
-
-    std::cout << "The list of drinks is:" << std::endl;
+    // dorder2.addDrinks(drinks, numDrinks);
+    std::cout
+        << "The list of drinks is:" << std::endl;
     std::cout << myDrink->tostring() << std::endl;
 
     delete myDrink;

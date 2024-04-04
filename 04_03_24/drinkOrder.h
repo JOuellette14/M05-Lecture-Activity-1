@@ -11,7 +11,7 @@ public:
     drinkOrder();
     drinkOrder(const drinkOrder &otherOrder);
     void addDrink(drink &);
-    void addDrinks(drink[], int);
+    void addDrinks(drink **, int);
     ~drinkOrder();
     std::string tostring() const;
 
