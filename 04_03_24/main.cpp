@@ -6,6 +6,7 @@
 
 // lecture activity change the loop that starts on line 64
 // instead of adding drinks to the array of drinks add them one at a time directly to dorder2
+// before the program ends print dorder2
 void resetStream();
 sizeType inputDrinkSize();
 baseType inputDrinkBase();
