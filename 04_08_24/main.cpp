@@ -5,10 +5,62 @@
 
 void resetStream();
 void displayProduct(product &p);
+void createDrink(product *[], int);
+
 // change the abstract function to a regular virtual function
 
 int main()
 {
+    product **myProducts;
+    int numProducts;
+    std::cout << "How many products do you want? ";
+    std::cin >> numProducts;
+    std::cout << std::endl;
+
+    while (!std::cin || numProducts <= 0)
+    {
+        if (!std::cin)
+        {
+            resetStream();
+        }
+        std::cout << "Please enter a number that is at least 1." << std::endl;
+        std::cout << "How many products do you want? ";
+        std::cin >> numProducts;
+        std::cout << std::endl;
+    }
+    myProducts = new product *[numProducts];
+    for (int i = 0; i < numProducts; i++)
+    {
+        std::string productType;
+        std::cout << "Do you want to create a drink or ice cream?";
+        std::cin >> std::ws;
+        getline(std::cin, productType);
+        std::transform(productType.begin(), productType.end(), productType.begin(), ::tolower);
+        while (productType != "drink" && productType != "ice cream")
+        {
+            std::cout << "Please enter drink or ice cream." << std::endl;
+            std::cin >> std::ws;
+            getline(std::cin, productType);
+            std::transform(productType.begin(), productType.end(), productType.begin(), ::tolower);
+        }
+
+        if (productType == "drink")
+        {
+            createDrink(myProducts, i);
+        }
+        else
+        {
+            myProducts[i] = new iceCream();
+        }
+    }
+    for (int i = 0; i < numProducts; i++)
+    {
+        std::cout << myProducts[i]->tostring() << std::endl;
+        delete myProducts[i];
+    }
+
+    delete[] myProducts;
+
     std::string prodNum = "1234a";
     std::string descript = "My product";
     // product p(prodNum, 3.99, descript);
@@ -47,7 +99,72 @@ int main()
     delete ptr;
 
     std::cout << myOrder.tostring() << std::endl;
-    /* int drinkSize;
+
+    /*     Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+2
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+1
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+2
+Please enter a flavor for your drink: Raspberry
+What kind of dairy would you like? Skim Milk
+The customer drink:
+Size: Medium
+Base: Coffee
+Temperature: Iced
+Flavor: Raspberry
+Dairy: Skim Milk
+Price: $7.50
+Would you like to change the drink? Please choose from the menu.
+1. Change Size
+2. Change Base
+3. Change Temperature
+4. Change Dairy
+5. Change Flavor
+6. No Changes
+4
+What kind of dairy would you like? Oat Milk
+Would you like to change the drink? Please choose from the menu.
+1. Change Size
+2. Change Base
+3. Change Temperature
+4. Change Dairy
+5. Change Flavor
+6. No Changes
+6
+Size: Medium
+Base: Coffee
+Temperature: Iced
+Flavor: Raspberry
+Dairy: Oat Milk
+Price: $8.75 */
+
+    return 0;
+}
+
+void resetStream()
+{
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+}
+
+void displayProduct(product &p)
+{
+    std::cout << p.tostring() << std::endl;
+}
+
+void createDrink(product *products[], int index)
+{
+    int drinkSize;
     int drinkBase;
     int drinkTemp;
     std::string dairy;
@@ -119,66 +236,5 @@ int main()
     std::cout << "What kind of dairy would you like? ";
     std::cin >> std::ws;
     std::getline(std::cin, dairy);
-    drink customerDrink(bases[drinkBase - 1], temps[drinkTemp - 1], sizes[drinkSize - 1], dairy, flavor);
-    std::cout << customerDrink.tostring() << std::endl; */
-    /*     Please choose the drink size:
-1: Small
-2: Medium
-3: Large
-2
-Please choose the drink base:
-1: Coffee
-2: Tea
-3: Cream
-1
-Please choose the drink temperature:
-1: Hot
-2: Iced
-3: Blended
-2
-Please enter a flavor for your drink: Raspberry
-What kind of dairy would you like? Skim Milk
-The customer drink:
-Size: Medium
-Base: Coffee
-Temperature: Iced
-Flavor: Raspberry
-Dairy: Skim Milk
-Price: $7.50
-Would you like to change the drink? Please choose from the menu.
-1. Change Size
-2. Change Base
-3. Change Temperature
-4. Change Dairy
-5. Change Flavor
-6. No Changes
-4
-What kind of dairy would you like? Oat Milk
-Would you like to change the drink? Please choose from the menu.
-1. Change Size
-2. Change Base
-3. Change Temperature
-4. Change Dairy
-5. Change Flavor
-6. No Changes
-6
-Size: Medium
-Base: Coffee
-Temperature: Iced
-Flavor: Raspberry
-Dairy: Oat Milk
-Price: $8.75 */
-
-    return 0;
-}
-
-void resetStream()
-{
-    std::cin.clear();
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-}
-
-void displayProduct(product &p)
-{
-    std::cout << p.tostring() << std::endl;
+    products[index] = new drink(bases[drinkBase - 1], temps[drinkTemp - 1], sizes[drinkSize - 1], dairy, flavor);
 }
