@@ -1,0 +1,19 @@
+Please choose the drink size:
+1: Small
+2: Medium
+3: Large
+Please choose the drink base:
+1: Coffee
+2: Tea
+3: Cream
+Please choose the drink temperature:
+1: Hot
+2: Iced
+3: Blended
+Please enter a flavor for your drink: What kind of dairy would you like? Size: Medium
+Base: Coffee
+Temperature: Iced
+Flavor: Raspberry
+Dairy: Skim Milk
+drink1 - Coffee Iced Medium - $7.50 - Available
+
