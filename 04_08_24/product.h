@@ -19,7 +19,8 @@ public:
     void setPrice(double);
     void setDescription(std::string);
     virtual std::string tostring() const;
-    ~product();
+    virtual product *clone() = 0;
+    virtual ~product();
 
 protected:
     double price;
@@ -80,6 +81,7 @@ public:
     void setDairy(std::string);
     void setFlavor(std::string);
     std::string tostring() const;
+    drink *clone();
     ~drink();
 
 private:
@@ -131,6 +133,7 @@ public:
     void setScoopAmount(int);
     std::string tostring() const;
     static double scoopPricing(int);
+    iceCream *clone();
     ~iceCream();
 
 private:

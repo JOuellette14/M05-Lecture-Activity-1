@@ -5,39 +5,40 @@
 
 void resetStream();
 void displayProduct(product &p);
+// change the abstract function to a regular virtual function
 
 int main()
 {
     std::string prodNum = "1234a";
     std::string descript = "My product";
-    product p(prodNum, 3.99, descript);
-    product r(prodNum + "b");
-    product s(prodNum + "s", 8.99, "This product", 12, 20, 3);
-    std::cout << p.tostring() << std::endl;
+    // product p(prodNum, 3.99, descript);
+    // product r(prodNum + "b");
+    // product s(prodNum + "s", 8.99, "This product", 12, 20, 3);
+    // std::cout << p.tostring() << std::endl;
     drink d(COFFEE, HOT, LARGE, "Skim Milk", "Brown Sugar");
     std::cout << d.tostring() << std::endl;
     drink myDrink(TEA, ICE, SMALL, "none", "none", "Small Iced Tea", "tea1234");
     iceCream favIceCream;
-    displayProduct(p);
+    /* displayProduct(p);
     displayProduct(r);
-    displayProduct(s);
+    displayProduct(s); */
     displayProduct(d);
     displayProduct(favIceCream);
-    p = d;
-    std::cout << p.tostring() << std::endl;
+    // p = d;
+    // std::cout << p.tostring() << std::endl;
     product *ptr;
     ptr = new drink(d);
     std::cout << ptr->tostring() << std::endl;
     order myOrder;
-    myOrder.addProduct(p);
+    /* myOrder.addProduct(p);
     myOrder.addProduct(r);
-    myOrder.addProduct(s);
+    myOrder.addProduct(s); */
     myOrder.addProduct(d);
     myOrder.addProduct(*ptr);
 
     for (int i = 0; i < 10; i++)
     {
-        product scope(std::to_string(i) + "b");
+        iceCream scope(static_cast<flavorType>(i), i);
         myOrder.addProduct(scope);
         std::cout << myOrder.tostring() << std::endl;
     }

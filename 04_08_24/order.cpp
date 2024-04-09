@@ -10,7 +10,7 @@ order::order()
 void order::addProduct(product &d)
 {
 
-    products[numProducts] = new product(d);
+    products[numProducts] = d.clone();
     product **dcpy;
     dcpy = products;
     products = new product *[++numProducts + 1];
@@ -45,7 +45,7 @@ order::order(const order &otherOrder)
     this->products = new product *[this->numProducts + 1];
     for (int i = 0; i < numProducts; i++)
     {
-        this->products[i] = new product(*(otherOrder.products[i]));
+        this->products[i] = otherOrder.products[i]->clone();
     }
 }
 
