@@ -46,9 +46,15 @@ public:
     bool operator<(const clockType &) const;
     bool operator>=(const clockType &) const;
     bool operator<=(const clockType &) const;
-    clockType operator+(const clockType &);
-    clockType operator+(int minutesToAdd);
+    clockType operator+(const clockType &) const;
+    clockType operator+(int minutesToAdd) const;
     clockType &operator+=(int minutesToAdd);
+    const clockType &operator=(const clockType &);
+    clockType operator++();
+    clockType operator++(int);
+    friend void two(const clockType &);
+    friend clockType operator+(int minutesToAdd, const clockType &);
+    friend std::ostream &operator<<(std::ostream &, const clockType &);
 
 private:
     int hour;

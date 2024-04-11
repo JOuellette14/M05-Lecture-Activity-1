@@ -116,14 +116,14 @@ bool clockType::operator==(const clockType &otherClock) const
     int cmpOthHour = otherClock.hour;
     if (this->type == TWELVE)
     {
-        if (this->timeOfDay == PM)
+        if (this->timeOfDay == PM && this->hour != 12)
         {
             cmpHour = (this->hour + 12) % 24;
         }
     }
     if (otherClock.type == TWELVE)
     {
-        if (this->timeOfDay == PM)
+        if (this->timeOfDay == PM && otherClock.hour != 12)
         {
             cmpOthHour = (otherClock.hour + 12) % 24;
         }
@@ -144,14 +144,14 @@ bool clockType::operator>(const clockType &otherClock) const
     int cmpOthHour = otherClock.hour;
     if (this->type == TWELVE)
     {
-        if (this->timeOfDay == PM)
+        if (this->timeOfDay == PM && this->hour != 12)
         {
             cmpHour = (this->hour + 12) % 24;
         }
     }
     if (otherClock.type == TWELVE)
     {
-        if (this->timeOfDay == PM)
+        if (this->timeOfDay == PM && otherClock.hour != 12)
         {
             cmpOthHour = (otherClock.hour + 12) % 24;
         }
@@ -202,14 +202,14 @@ bool clockType::operator<(const clockType &otherClock) const
     int cmpOthHour = otherClock.hour;
     if (this->type == TWELVE)
     {
-        if (this->timeOfDay == PM)
+        if (this->timeOfDay == PM && this->hour != 12)
         {
             cmpHour = (this->hour + 12) % 24;
         }
     }
     if (otherClock.type == TWELVE)
     {
-        if (this->timeOfDay == PM)
+        if (this->timeOfDay == PM && otherClock.hour != 12)
         {
             cmpOthHour = (otherClock.hour + 12) % 24;
         }
@@ -303,13 +303,13 @@ void clockType::incrementHour()
     }
 }
 
-clockType clockType::operator+(const clockType &otherClock)
+clockType clockType::operator+(const clockType &otherClock) const
 {
     int standHour = this->hour;
     int standOthHour = otherClock.hour;
     if (this->type == TWELVE)
     {
-        if (this->timeOfDay == PM)
+        if (this->timeOfDay == PM && this->hour != 12)
         {
             standHour = (this->hour + 12) % 24;
         }
@@ -332,7 +332,7 @@ clockType clockType::operator+(const clockType &otherClock)
     return clockType(newHour, newMinute, newSecond, TWENTYFOUR);
 }
 
-clockType clockType::operator+(int minutesToAdd)
+clockType clockType::operator+(int minutesToAdd) const
 {
     clockType c(0, minutesToAdd, 0, TWENTYFOUR);
     return *this + c;
@@ -343,7 +343,7 @@ clockType &clockType::operator+=(int minutesToAdd)
     int standHour = this->hour;
     if (this->type == TWELVE)
     {
-        if (this->timeOfDay == PM)
+        if (this->timeOfDay == PM && this->hour != 12)
         {
             standHour = (this->hour + 12) % 24;
         }
@@ -360,14 +360,68 @@ clockType &clockType::operator+=(int minutesToAdd)
         this->hour = newHour - 12;
         this->timeOfDay = PM;
     }
-    else if (this->type == TWELVE)
+    else if (this->type == TWELVE && newHour == 0)
+    {
+        this->hour = 12;
+        this->timeOfDay == AM;
+    }
+    else if (this->type == TWELVE && newHour != 12)
     {
         this->timeOfDay = AM;
         this->hour = newHour;
     }
+    else if (this->type == TWELVE && newHour == 12)
+    {
+        this->timeOfDay = PM;
+    }
+
     else
     {
         this->hour = newHour;
     }
     return *this;
+}
+
+void two(const clockType &theClock)
+{
+    theClock.hour;
+    theClock.minute;
+}
+
+std::ostream &operator<<(std::ostream &out, const clockType &c)
+{
+    out << c.print();
+
+    return out;
+}
+
+clockType operator+(int minutesToAdd, const clockType &theClock)
+{
+    return theClock + minutesToAdd;
+}
+
+const clockType &clockType::operator=(const clockType &cpyClock)
+{
+    if (this != &cpyClock)
+    {
+        this->hour = cpyClock.hour;
+        this->minute = cpyClock.minute;
+        this->second = cpyClock.second;
+        this->timeOfDay = cpyClock.timeOfDay;
+        this->type = cpyClock.type;
+    }
+    return *this;
+}
+
+clockType clockType::operator++()
+{
+    this->incrementSecond();
+    return *this;
+}
+
+clockType clockType::operator++(int)
+{
+    clockType temp(*this);
+    this->incrementSecond();
+    return temp;
 }

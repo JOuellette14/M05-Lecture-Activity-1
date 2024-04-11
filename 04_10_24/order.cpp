@@ -41,12 +41,9 @@ void order::addProduct(product &d)
 
 order::order(const order &otherOrder)
 {
-    this->numProducts = otherOrder.numProducts;
-    this->products = new product *[this->numProducts + 1];
-    for (int i = 0; i < numProducts; i++)
-    {
-        this->products[i] = otherOrder.products[i]->clone();
-    }
+    products = nullptr;
+    numProducts = 0;
+    copyOrder(otherOrder);
 }
 
 order::~order()
@@ -68,4 +65,37 @@ std::string order::tostring() const
         out << std::setw(25) << std::setfill('-') << "-" << std::endl;
     }
     return out.str();
+}
+
+const order &order::operator=(const order &cpyOrder)
+{
+    if (this != &cpyOrder)
+    {
+        copyOrder(cpyOrder);
+    }
+    return *this;
+}
+
+product &order::operator[](int index)
+{
+    return *products[index];
+}
+
+void order::copyOrder(const order &cpyOrder)
+{
+    if (numProducts > 0)
+    {
+        for (int i = 0; i < numProducts; i++)
+        {
+            delete products[i];
+        }
+        delete[] products;
+    }
+
+    this->numProducts = cpyOrder.numProducts;
+    this->products = new product *[this->numProducts + 1];
+    for (int i = 0; i < numProducts; i++)
+    {
+        this->products[i] = cpyOrder.products[i]->clone();
+    }
 }
