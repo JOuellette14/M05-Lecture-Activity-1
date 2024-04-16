@@ -2,6 +2,7 @@
 #include <random>
 #include <vector>
 #include "clock.h"
+#include "drink.h"
 
 template <class t>
 t magicTemplate(t val1, t val2);
@@ -29,6 +30,21 @@ int main()
     std::vector<clockType> clocks;
     clocks.push_back(a);
     clocks.push_back(clockType(1, 1, 1));
+    for (int i = 0; i < clocks.size(); i++)
+    {
+        std::cout << clocks[i] << std::endl;
+    }
+    for (std::vector<clockType>::iterator it = clocks.begin(); it != clocks.end(); ++it)
+    {
+        std::cout << *it << std::endl;
+    }
+    for (auto it = clocks.begin(); it != clocks.end(); ++it)
+    {
+        std::cout << *it << std::endl;
+    }
+    drink d(COFFEE, HOT, SMALL, "", "");
+    drink::baseToStr.at(static_cast<baseType>(47));
+    drink e(COFFEE, HOT, SMALL, "", "");
     return 0;
 }
 
