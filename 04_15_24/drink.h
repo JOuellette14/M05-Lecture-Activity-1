@@ -53,6 +53,9 @@ public:
     static std::map<sizeType, std::string> sizeToStr;
     static std::map<std::string, sizeType> strToSize;
     static std::map<std::string, double> dairyPrice;
+    static std::map<sizeType, double> sizePrice;
+    static std::map<baseType, double> basePrice;
+    static std::map<tempType, double> temperaturePrice;
 
 private:
     baseType base;

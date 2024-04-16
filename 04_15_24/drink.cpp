@@ -13,6 +13,10 @@ std::map<std::string, double> drink::dairyPrice = {{"whole milk", .5},
                                                    {"cream", 1.5},
                                                    {"oat milk", 2.0},
                                                    {"almond milk", 2.0}};
+std::map<sizeType, double> drink::sizePrice = {{SMALL, 2.00},{MED, 3.00},{LARGE, 4.00}};
+std::map<baseType, double> drink::basePrice = {{COFFEE, 2.75},{TEA, 1.75},{CREAM, 0}};
+std::map<tempType, double> drink::temperaturePrice = {{HOT, 0}, {ICE ,0.5}, {BLEND, 0.75}};
+
 std::string drink::getBaseStr() const
 {
     return baseToStr.at(base);
@@ -81,7 +85,14 @@ std::string drink::getFlavor() const
 double drink::getPrice() const
 {
     double price = 0;
-    switch (size)
+    
+    price += basePrice.at(base);
+
+    price += temperaturePrice.at(temperature);
+
+    price += sizePrice.at(size);
+    
+    /*switch (size)
     {
     case SMALL:
         price += 2.00;
@@ -119,7 +130,10 @@ double drink::getPrice() const
     case BLEND:
         price += 0.75;
         break;
-    }
+    }*/
+
+   
+
     if (!flavor.empty())
     {
         price += .5;
