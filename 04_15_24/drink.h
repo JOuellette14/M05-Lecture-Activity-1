@@ -31,6 +31,7 @@ public:
     drink(baseType, tempType, sizeType, std::string dairy, std::string flavor);
     // drink(baseType, tempType, sizeType, std::string dairy, std::string flavor, std::string description, std::string prodNum);
     //  drink();
+    drink(std::string base, std::string temp, std::string size, std::string dairy, std::string flavor);
     std::string getBaseStr() const;
     std::string getTemperature() const;
     std::string getSize() const;
